@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_internet_message">Приложение требует подключение к интернету.\nПожалуйста, проверьте состояние подключения.</string>
+    <string name="choose_photo_header">Выберите фото</string>
+    <string name="loading_news">Загрузка новостей…</string>
+    <string name="loading_data">Загрузка данных…</string>
+    <string name="loading_auth">Авторизация…</string>
+    <string name="loading_wait">Выполнение операции…</string>
+    <string name="loading_get_token">Получение токена…</string>
+    <string name="loading_success">Действие выполнено успешно!</string>
+    <string name="loading_failure">Действие не выполнено\nПопробуйте повторить попытку позже</string>
+    <string name="auth">Авторизация</string>
+    <string name="post_auth_wrong_data">Неверный логин или пароль</string>
+
+    <string name="dialog_logout_header">Подтверждение выхода</string>
+    <string name="dialog_logout_message">Вы действительно хотите сменить текущго пользователя?</string>
+    <string name="dialog_del_header">Подтверждение удаления</string>
+    <string name="dialog_del_contact_message">Вы действительно хотите удалить данный контакт?</string>
+    <string name="dialog_del_news_message">Вы действительно хотите удалить данную новость?</string>
+
+    <string name="dialog_add_news_header">Добавление новости</string>
+    <string name="dialog_add_news_head">Заголовок новости</string>
+    <string name="dialog_add_news_text">Текст новости</string>
+    <string name="dialog_add_news_is_important">Новость является важной</string>
+    <string name="dialog_add_news_tags">Категория новости</string>
+    <string name="dialog_add_news_choose_category">Выберите категорию новости</string>
+    <string name="dialog_add_news_category_not_chosen">Категория не выбрана</string>
+
+    <string name="dialog_edit_news_header">Изменение новости</string>
+
+    <string name="dialog_author_fio">ФИО: </string>
+    <string name="dialog_author_phone">Телефон: </string>
+    <string name="dialog_author_class">Класс: </string>
+    <string name="dialog_author_access">Доступ: </string>
+    <string name="dialog_author_date">Авторизация: </string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fill_all_fields">Все поля должны быть заполнены</string>
+    <string name="different_emails">Поля Email не совпадают</string>
+    <string name="different_passwords">Пароли не совпадают</string>
+    <string name="password_not_strong">Пароль не достаточно длинный</string>
+    <string name="contact_need_name">Как минимум поле имени должно быть заполнено</string>
+    <string name="contact_added">" был(а) добавлен(а) в список контактов"</string>
+    <string name="contact_updated">" был(а) обновлен(а)"</string>
+    <string name="contact_not_updated">" не был(а) обновлен(а)"</string>
+    <string name="contact_already_exist">" уже существует в списке контактов"</string>
+    <string name="contact_need_to_confirm">Вы зарегестрированы, но ваш Email не подтвержден.\nПожалуйста проверьте почту!</string>
+    <string name="low_rights">Для данного действия у вас низкий уровень доступа</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tab1">Новости</string>
+    <string name="tab2">Записная книжка</string>
+    <string name="tab3">Журнал</string>
+
+</resources>

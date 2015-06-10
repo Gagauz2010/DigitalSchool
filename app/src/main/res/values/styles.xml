@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:listViewStyle">@style/TransparentListView</item>
+        <item name="android:tabWidgetStyle">@style/MyTabStyle</item>
+        <item name="android:editTextStyle">@style/CustomTextEdit</item>
+
+    </style>
+
+    <style name="CustomTextEdit" parent="@android:style/Widget.AutoCompleteTextView" />
+
+    <style name="TransparentListView" parent="@android:style/Widget.ListView">
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+    </style>
+
+    <style name="MyTabStyle" parent="@android:style/Widget.TabWidget">
+        <item name="android:textColor">#363636</item>
+    </style>
+
+    <style name="MyButton" parent="android:style/Widget.Button">
+        <item name="android:height">50dp</item>
+        <item name="android:shadowColor">#FF363636</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowDx">-1</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:paddingBottom">5dp</item>
+    </style>
+
+    <style name="ButtonGreen" parent="MyButton">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/button_green</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="ButtonBlue" parent="MyButton">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/button_blue</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextEdit" parent="android:style/Widget.EditText">
+        <item name="android:background">@drawable/textedit</item>
+        <item name="android:textColorHint">#888</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="LinkButton">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_search">Поиск</string>
+    <string name="action_refresh">Обновить</string>
+    <string name="action_logout">Сменить пользователя</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_add_news">Добавить новость</string>
+    <string name="action_edit_news">Изменить новость</string>
+    <string name="action_add_person">Добавить контакт</string>
+    <string name="action_ready">Готово</string>
+    <string name="action_cancel">Отмена</string>
+</resources>

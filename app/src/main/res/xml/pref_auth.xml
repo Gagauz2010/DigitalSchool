@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="remember_user"
+        android:summary="Remember user"
+        android:title="User">
+    </CheckBoxPreference>
+    <EditTextPreference
+        android:key="address"
+        android:summary="User email address"
+        android:title="Email"
+        android:enabled="false">
+    </EditTextPreference>
+    <EditTextPreference
+        android:key="password"
+        android:summary="User password"
+        android:title="Password"
+        android:enabled="false">
+    </EditTextPreference>
+    <EditTextPreference
+        android:key="level"
+        android:summary="Level of user freedom"
+        android:title="User permissions level"
+        android:enabled="false">
+    </EditTextPreference>
+    <EditTextPreference
+        android:key="id"
+        android:summary="User ID"
+        android:title="ID"
+        android:enabled="false">
+    </EditTextPreference>
+    <EditTextPreference
+        android:key="class"
+        android:summary="User inspected class"
+        android:title="Class"
+        android:enabled="false">
+    </EditTextPreference>
+</PreferenceScreen>

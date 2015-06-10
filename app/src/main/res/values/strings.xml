@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Электронная школа</string>
+    <string name="drawer_open">Открыть навигацию</string>
+    <string name="drawer_close">Закрыть навигацию</string>
+    <string name="title_activity_log_in">Авторизация пользователя</string>
+    <string name="title_activity_registration">Регистрация</string>
+    <string name="tab_icon">tab_icon</string>
+    <string name="ns_menu_main_header">Общее</string>
+    <string name="ns_menu_settings_header">Настройки</string>
+    <string name="empty"/>
+    <string name="low_lvl_access">Журнал могут просматривать только родители и учителя</string>
+
+    <string-array name="listArray">
+        <item>Headings</item>
+        <item>Headings and Details</item>
+        <item>All Data</item>
+    </string-array>
+    <string-array name="listValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="contact_photo">ContactPhoto</string>
+    <string name="title_activity_contact_editor">ContactEditor</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

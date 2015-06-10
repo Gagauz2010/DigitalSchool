@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dialogs_bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:weightSum="1">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/addNewsHeader"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:textColor="#FF363636"
+                android:inputType="textCapSentences"
+                android:hint="@string/dialog_add_news_head"
+                android:textColorHint="#77363636"
+                android:padding="10dp"
+                android:background="#4FFFFFFF" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine|textCapSentences"
+                android:ems="10"
+                android:id="@+id/addNewsBody"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:textColor="#FF363636"
+                android:hint="@string/dialog_add_news_text"
+                android:textColorHint="#77363636"
+                android:background="#4FFFFFFF"
+                android:padding="10dp" />
+
+            <CheckBox
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dialog_add_news_is_important"
+                android:id="@+id/addNewsImportant"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/dialog_add_news_choose_category"
+                android:id="@+id/textView3"
+                android:layout_marginTop="20dp" />
+
+            <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:id="@+id/addNewsSpinner"
+                android:background="#4FFFFFFF"
+                android:padding="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

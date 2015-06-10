@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="blue" type="color">#FF33B5E5</item>
+    <item name="blue_highlight" type="color">#2233B5E5</item>
+    <item name="selected_blue" type="color">#FFD8F1FA</item>
+    <item name="orange" type="color">#FFD79034</item>
+    <item name="pastel_redlight" type="color">#FFF99aaa</item>
+    <item name="pastel_red" type="color">#FFf15f74</item>
+    <item name="pastel_red_shadow" type="color">#FFca374d</item>
+    <item name="pastel_red_separator" type="color">#ffb9374d</item>
+    <item name="pastel_orange" type="color">#FFf76d3c</item>
+    <item name="pastel_orange_shadow" type="color">#FFd74c1b</item>
+    <item name="pastel_yellow" type="color">#FFf7d842</item>
+    <item name="pastel_yellow_shadow" type="color">#FFd4b51e</item>
+    <item name="pastel_green" type="color">#FF98cb4a</item>
+    <item name="pastel_green_shadow" type="color">#FF7bad2f</item>
+    <item name="pastel_greenbluedark" type="color">#FF76a698</item>
+    <item name="pastel_greenbluedark_shadow" type="color">#FF538879</item>
+    <item name="pastel_blue" type="color">#FF5481e6</item>
+    <item name="pastel_blue_shadow" type="color">#FF305dc3</item>
+    <item name="pastel_lightblue" type="color">#FF2ca8c2</item>
+    <item name="pastel_lightbue_shadow" type="color">#FF0f87a0</item>
+    <item name="pastel_greenbluelight" type="color">#FF1fc1ba</item>
+    <item name="pastel_greenbluelight_shadow" type="color">#FF06a099</item>
+    <item name="pastel_grayblue" type="color">#FF7396a4</item>
+    <item name="pastel_grayblue_shadow" type="color">#FF486f7e</item>
+    <item name="pastel_grayblue_separator" type="color">#ff2c5f6e</item>
+    <item name="pastel_link_color" type="color">#FF80cbc4</item>
+    <item name="text_shadow" type="color">#8F363636</item>
+</resources>

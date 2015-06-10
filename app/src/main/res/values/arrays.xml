@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_array">
+        <item>Новости</item>
+        <item>Записная книжка</item>
+        <item>Журнал</item>
+        <item>Настройки</item>
+        <item>Выход</item>
+    </string-array>
+
+    <array name="screen_icon_array">
+        <item>ic_action_chat</item>
+        <item>ic_action_cc_bcc</item>
+        <item>ic_action_view_as_list</item>
+        <item>ic_action_settings</item>
+        <item>ic_action_logout</item>
+    </array>
+</resources>

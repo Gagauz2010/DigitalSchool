@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Both activities-->
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+
+    <!--Login activity-->
+    <string name="login">Вход</string>
+    <string name="remember_user">Запомнить пользователя</string>
+    <string name="register">Регистрация</string>
+    <string name="greet">Оставайтесь с нами на связи и получайте самые свежие новости.</string>
+    <string name="forget_password"><![CDATA[<a href="http://www.stackoverflow.com">Забыли пароль?</a>]]></string>
+    <string name="site"><![CDATA[<a href="http://www.stackoverflow.com">Перейти на сайт</a>]]></string>
+
+    <!--Register activity-->
+    <string name="fio">Фамилия Имя Отчество</string>
+    <string name="confirm">Зарегистрироваться</string>
+    <string name="contact_phone">Контактный телефон</string>
+    <string name="repassword">Подтверждение пароля</string>
+    <string name="reemail">Подтверждение Email</string>
+    <string name="email_rule">Указывайте корректный Email адрес, так как на него будет выслано письмо с подтверждением регистрации</string>
+    <string name="password_rule">Пароль должен быть длинее 8 символов</string>
+
+</resources>

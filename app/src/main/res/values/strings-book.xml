@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Strings for tab headers-->
+    <string name="contact_creator">Добавить</string>
+    <string name="contacts">Контакты</string>
+
+    <!--Strings for creator tab-->
+    <string name="txt_name">Имя</string>
+    <string name="txt_phone">Номет телефона</string>
+    <string name="txt_email">Почтовый ящик</string>
+    <string name="txt_address">Почтовый адрес</string>
+    <string name="add_btn">Добавить контакт</string>
+    <string name="edit_btn">Обновить контакт</string>
+
+
+
+    <string name="creator_header">Создание контакта</string>
+    <string name="editor_header">Редактирование контакта</string>
+    <string name="profile_image">Фото профиля</string>
+
+    <!--Strings for contact list tab-->
+    <string name="list_header">Мои контакты</string>
+
+    <!--Strings for contact listView contextMenu-->
+    <string name="menu_header_opt">Опции</string>
+    <string name="menu_edit">Изменить</string>
+    <string name="menu_delete">Удалить</string>
+    <string name="menu_call">Позвонить</string>
+    <string name="menu_email">Отправить Email</string>
+    <string name="menu_sms">Отправить SMS</string>
+    <string name="menu_map">Найти на карте</string>
+
+    <!--Strings for news listView contextMenu-->
+    <string name="menu_who">Информация об авторе</string>
+</resources>
