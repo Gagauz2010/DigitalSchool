@@ -31,7 +31,7 @@
 	$news_important = $_POST['news_important'];
 
 	if(!$instructions){
-		if($acc == '6'){
+		if($acc == '4'){
 			$result = mysql_query("SELECT * FROM ( SELECT * FROM `news` ORDER BY `id` DESC LIMIT 50) a ORDER BY `id`");
 		}
 		else{
