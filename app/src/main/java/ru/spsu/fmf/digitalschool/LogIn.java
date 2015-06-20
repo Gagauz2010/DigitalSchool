@@ -126,7 +126,7 @@ public class LogIn extends ActionBarActivity {
     }
 
     private void tryToAuth(String result) {
-        if (!result.equals("User not found")) {
+        if (!result.contains("User not found")) {
             try {
                 JSONObject object = new JSONObject(result);
 

@@ -23,7 +23,7 @@
 	
 	$data = mysql_fetch_array($result);
 
-	if($data['id'] != ''){
+	if($data['id']){
 		$output = array('id' => $data['id'], 'access' => $data['access'], 'class' => $data['class_id']);
 		$update = mysql_query("UPDATE `users` SET `last_login`=(NOW()+INTERVAL 8 HOUR) WHERE `email`='".$email."'");
 		echo (json_encode($output, JSON_UNESCAPED_UNICODE));
