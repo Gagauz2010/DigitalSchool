@@ -2,10 +2,10 @@
 /**
  * Database config variables
  */
-define("mysql_host", "localhost");
-define("mysql_user", "813483");
-define("mysql_password", "l53QhduOm92");
-define("mysql_database", "813483");
+define("mysql_host", "%HOST_NAME%");
+define("mysql_user", "%USER_NAME%");
+define("mysql_password", "%USER_PASSWORD%");
+define("mysql_database", "%DB_NAME%");
 
-define("GOOGLE_API_KEY", "AIzaSyAOyShCMxw2Ix3yc91aqeYNiivmCiJaIG4");
+define("GOOGLE_API_KEY", "%GOOGLE_API_KEY%");
 ?>
