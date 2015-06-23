@@ -1,4 +1,4 @@
-# Цифровая школа ![App Logo](app/src/main/res/drawable-mdpi/ic_launcher.png)
+# Цифровая школа ![App Logo](app/src/main/res/drawable-mdpi/ic_launcher.png?raw=true)
 ```
 ------------------------------------------------------------------------
 ---___--------------------------___-------------------------------------
